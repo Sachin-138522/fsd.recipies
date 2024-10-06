@@ -11,10 +11,10 @@ body{
    
 }
 
-img{
+#image{
     border-radius: 10px;
     display: block;
-    margin: 20px auto;
+    margin: 20px 0px;
 }
 ul{
   list-style-type: circle;
@@ -22,12 +22,15 @@ ul{
 }
 a{
     text-decoration: none;
+   
 }
 #welcome{
-    color: darkorange;
-    border: 4px solid black;
-    display: inline;
-    background-color: aquamarine;
+    color:#000;
+    border:4px solid black;
+    display:inline-flex;
+    background-color: red;
+    margin-left:20%;
+
 }
 #list{
     color:lawngreen;
@@ -49,6 +52,12 @@ a{
     border: 2px solid yellow;
     border-radius: 5px;
     background-color: #90e3d5;
+  }
+
+  #nav ul li :hover{
+    background-color: #002BFF;
+    width: 100px;
+    height: 30px;
   }
   #flex-box{
     display: flex;
@@ -139,6 +148,7 @@ a{
   }
   #button2 li {
     list-style: none;
+    color: red;
   }
   #button3{
     border: 2px solid black;
@@ -185,7 +195,7 @@ a{
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #333;
+  background-color: transparent;
   left: 0;
   top: 0;
   border-radius: 10px;
